@@ -1,0 +1,62 @@
+# Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Logs
+logs_dev/
+logs_prod/
+logs_test/
+logs/ # if you have a base logs folder.
+*.log
+
+# Database files (if using SQLite)
+instance/
+*.db
+*.sqlite
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE specific files
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+
+# Compiled files
+*.o
+*.so
+*.obj
+*.exe
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Coverage reports
+htmlcov/
+.coverage
+
+# Temporary files
+*.tmp
+*.swp
+*.bak
+
+# Environment variables (if you have them in a file)
+.env
+
+# Uploads or other user-generated content (if applicable)
+uploads/
+
+# Any other specific file or folder
+# that you do not want to track
